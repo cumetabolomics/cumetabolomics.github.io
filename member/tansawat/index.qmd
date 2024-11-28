@@ -1,0 +1,67 @@
+---
+title: &TITLE Rossarin Tansawat 
+last: Tansawat
+first: Rossarin
+people_group: "pi"
+email: "rossarin.t@chula.ac.th"
+fields: Metabolomics
+subtitle: "Assist Prof"
+description: ""
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: ../../publications/**/*.qmd
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about: 
+  id: about
+  template: solana
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:rossarin.t@chula.ac.th
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: envelope-at
+      text: Email
+      href: mailto://rossarin.t@chula.ac.th
+    - icon: circle-fill
+      text: ORCID
+      href: https://orcid.org/
+---
+
+<hr>
+
+
+:::{#about}
+
+Her research focus is on metabolomic studies in food and nutrition. Mass spectrometry-based metabolomics approach is her fields of expertise. She is an active participant in metabolomics workshops and attends professional conferences and seminars on a regular basis. In 2023, she established Chulalongkorn University’s Metabolomics for Life Sciences Research Unit. She was also a co-founder of the official Thailand Metabolomics Society (TMS) and now serves as the society's secretary.
+
+## Education
+
+- 2012 | PhD in Nutrition and Food Sciences | Utah State University, Utah, USA
+- 2009 | MSc in Nutrition and Food Sciences | Utah State University, Utah, USA
+- 2005 | BSc in Pharmaceutical Sciences (Honors) | Chulalongkorn University, Thailand
+
+<br>
+
+## Experiences
+
+- 2012 - Present | Assistant Professor | Department of Food and Pharmaceutical Chemistry, Chulalongkorn University, Bangkok, Thailand
+- 2016 | visiting scientist | the West Coast Metabolomics Center, University of California, Davis, USA 
+
+:::
+
+## {{< meta first >}}'s Publications
+
+:::{#pubs}
+:::
